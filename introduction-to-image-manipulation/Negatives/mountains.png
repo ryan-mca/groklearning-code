@@ -1,0 +1,562 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-country-code="AU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-config" content="none">
+    <meta name="theme-color" content="#10466e">
+
+    
+<meta property="og:title" content="Grok Academy"/>
+<meta property="og:image" content="https://assets.learn.groklearning-cdn.com/static/images/marketing/default-ga-facebook-thumbnail@2x.png"/>
+<meta property="og:site_name" content="Grok Academy"/>
+<meta property="og:url" content="https://grokacademy.org/"/>
+
+
+    
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@grokacademy"/>
+<meta name="twitter:title" content="Grok Academy"/>
+<meta name="twitter:image" content="https://assets.learn.groklearning-cdn.com/static/images/marketing/default-ga-facebook-thumbnail.png"/>
+
+
+    
+    <meta property="og:description"  content="Online platform to learn and teach programming in the classroom. Created by educators for educators. Learn Python, HTML, CSS, embedded programming, and more."/>
+    <meta name="twitter:description" content="Online platform to learn and teach programming in the classroom. Created by educators for educators. Learn Python, HTML, CSS, embedded programming, and more."/>
+    <meta name="description"         content="Online platform to learn and teach programming in the classroom. Created by educators for educators. Learn Python, HTML, CSS, embedded programming, and more."/>
+    
+
+    
+    <script>
+      (function (m, a, z, e) {
+        var s, t;
+        try {
+          t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}
+      
+        if (!t) {
+          t = new Date().getTime();
+          try {
+            m.sessionStorage.setItem('maze-us', t);
+          } catch (err) {}
+        }
+      
+        s = a.createElement('script');
+        s.src = z + '?t=' + t + '&apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+      })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '62341604-06cd-42b0-8fd0-b1d09c3bf79d');
+    </script>
+    
+
+    <title>Grok Academy</title>
+
+    <link rel="icon" type="image/png" href="https://assets.learn.groklearning-cdn.com/static/images/ga-favicon.png">
+    <link rel="apple-touch-icon" href="https://assets.learn.groklearning-cdn.com/static/images/ga-apple-touch-icon.png">
+
+    
+  <link crossorigin="anonymous" href="https://assets.learn.groklearning-cdn.com/static/dist/marketing-sass-css/marketing-sass-css.8a5b1ae366414fec8660.css" integrity="sha384-EfxyXrs9Lyg9W9zC3WHPYiJUZX3BD5+alwLX4gdaTn+hzVzg6mS/+ti15GCZGmEC" rel="stylesheet" type="text/css">
+
+
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+  </head>
+  
+<body class="marketing-page-working light-blue-back login-register-page">
+
+
+    
+    
+    <div class="modal fade" id="modal-deprecated-browser" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Deprecated Browser</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-danger" role="alert">
+          It looks like you are using an old version of <span class="js-browser-name"></span> that we no longer support.
+          Please update your browser to continue using Grok Academy.
+        </div>
+        <p>
+          Please <a href="https://docs.groklearning.io/article/86-what-browsers-do-you-support" target="_blank" rel="noreferrer" class="alert-link">click here</a> to view the list of browsers and browser versions we support.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="modal-image-viewer" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-full-height">
+    <div class="modal-content">
+      <div class="image-viewer js-image-viewer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="menu" role="menu">
+          <span class="zoom-text js-zoom-text">100%</span>
+          <button class="js-zoom-in" title="Zoom in"><span class="icon-zoom-in3"></span><span class="sr-only">Zoom in</span></button>
+          <button class="js-zoom-out" title="Zoom out"><span class="icon-zoom-out3"></span><span class="sr-only">Zoom out</span></button>
+        </div>
+        <div class="scrollable">
+          <img class="js-img" src="https://assets.learn.groklearning-cdn.com/static/images/branding/academy-logo-primary-white.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="modal-websockets-blocked" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">WebSockets blocked!</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-danger" role="alert">
+          <strong>Uhoh!</strong>
+          Your network appears to be blocking WebSockets.
+          Grok Academy will not function correctly without WebSockets.
+        </div>
+        <p>
+          Please <a href="/debug/blocked/" target="_blank" rel="noreferrer" class="alert-link">click here</a> to open our network blocking debugging page in a new window.
+          You can provide this page to your network administrator so they can get Grok Academy working on your network.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="modal-post-failed" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Requests are failing</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-danger" role="alert">
+          <strong>Uhoh!</strong>
+          We couldn't send information to Grok.
+          You won't be able to use our site.
+        </div>
+        <p>
+          This is most likely happening because you have a browser extension that's
+          interfering with our requests.
+          Try disabling any extensions and refreshing the page, or use a different browser.
+        </p>
+          If you're still having trouble, contact
+          <a class="js-support-message" href="mailto:support@groklearning.com">support@groklearning.com</a>
+          and let us know what browser and operating system you're using.
+          For more information, see <a target="_blank" href="https://docs.groklearning.io/article/531-grok-learning-is-not-working-at-home">our documentation</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    <audio id="audio-alert" preload>
+      <source src="https://assets.learn.groklearning-cdn.com/static/sounds/alert.ogg" type="audio/ogg">
+      <source src="https://assets.learn.groklearning-cdn.com/static/sounds/alert.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio-chat-post" preload>
+      <source src="https://assets.learn.groklearning-cdn.com/static/sounds/chat-post.ogg" type="audio/ogg">
+      <source src="https://assets.learn.groklearning-cdn.com/static/sounds/chat-post.mp3" type="audio/mpeg">
+    </audio>
+
+    
+    <nav class="sr-only">
+      <a class="sr-only-focusable" href="#content-wrapper" tabindex="1">Jump to main content</a>.
+    </nav>
+
+    
+
+
+    
+  <header id="page-header">
+
+    <nav class="navbar navbar-expand-xl fixed-top navbar-page-header-blue main-navbar">
+
+      <div class="container-md">
+        <a class="navbar-brand grok-logo" href="/">
+          <img alt="Grok Academy" src="https://assets.learn.groklearning-cdn.com/static/images/branding/academy-logo-primary-white.svg" width="78" height="40">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#page-header-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="page-header-navbar-collapse">
+          <ul class="nav navbar-nav navbar-page-header-main-nav">
+             <!-- end checking users authenticated -->
+
+            
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                Schools
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="/teachers/australia/">
+                    What is Grok
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/a/curriculum/">
+                    Unpack the Curriculum
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/a/resources/">
+                    Resources
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/launch">
+                    Courses
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/a/cyber">
+                    Cyber AU
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/cyber-nz">
+                    Cyber NZ
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/dt-applied">
+                    DT Applied
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/universities/">
+                Universities
+              </a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                Events
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="/upcoming/">
+                    Coding Events
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/ncss/">
+                    National Computer Science School
+                  </a>
+                </li>
+                 <!-- user is not a student or not logged in -->
+                <li class="nav-item">
+                  <a class="nav-link" href="/events/">
+                    Professional Development Events
+                  </a>
+                </li>
+                
+
+                <!-- Competitions -->
+                <li class="nav-item">
+                  <h6 class="dropdown-header">Competitions</h6>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/challenge/">
+                    NCSS Challenge
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/webcomp/">
+                    Web.Comp
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/cybercomp/">
+                    Cyber Comp
+                  </a>
+                </li>
+              </ul>
+            </li> <!-- end of Events dropdown -->
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  About us
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                      About Grok
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/governance/">
+                      Governance
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/champions/">
+                      Champion schools
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/jobs/">
+                      Jobs
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/policies/">
+                      Policies and Procedures
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/press/">
+                      Press
+                    </a>
+                  </li>
+                </ul>
+              </li> <!-- end of About us dropdown -->
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  Corporate Engagement
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/partners/">
+                      Our Collaborators
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/wisetech-global/">
+                      WiseTech Global
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/media/richard-white-announcement/">
+                      Richard White
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/projects/">
+                      Projects
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/impact/">
+                      Impact
+                    </a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="/research/">
+                      Research
+                    </a>
+                  </li> 
+                </ul>
+              </li> <!-- end of Corporate Engagement dropdown -->
+          </ul> <!-- navbar-nav -->
+
+          <ul class="nav navbar-nav navbar-right navbar-page-header-user-nav">
+            <li>
+              <a href="mailto:support@groklearning.com" class="js-support-message nav-link">
+                Support
+              </a>
+            </li>
+            
+            <li>
+              <a class="nav-link" href="/login/?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png"><span class="icon icon-user"></span>Log In</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/register/?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png"><span class="icon icon-user-plus"></span>Register</a>
+            </li>
+            
+          </ul> <!-- navbar-nav navbar-right -->
+        </div> <!-- navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+
+    <div id="content-wrapper" tabindex="-1">
+      
+<div class="container-md">
+  <h1 id="login-register-page-title-heading" class="text-center type-light login-register-page-title-heading">Welcome back! Please log in below.</h1>
+  <p class="text-center">Or <a class="underline-link" href="/register/?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png">register an account</a>.</p>
+  <div class="row clear-bottom">
+    <div class="login-register-forms col-margin-top col-12 offset-md-2 col-md-8 offset-lg-2 col-lg-8 offset-xl-2 col-xl-8">
+      <div class="login-register-tabs" role="navigation">
+        <a href="/login/?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png" class="login-register-tab active">
+          <span class="icon icon-envelop5" role="img"></span>
+          <span class="d-none d-md-inline">Use email</span>
+          <span class="d-inline d-md-none">Email</span>
+        </a>
+        <a href="/sso/oauth2/google/start?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png" class="login-register-tab">
+          <span class="icon google-logo" role="img">
+            <svg width="18px" height="18px" viewBox="0 -1 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: visible">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g>
+                  <path d="M9,3.48 C10.69,3.48 11.83,4.21 12.48,4.82 L15.02,2.34 C13.46,0.89 11.43,0 9,0 C5.48,0 2.44,2.02 0.96,4.96 L3.87,7.22 C4.6,5.05 6.62,3.48 9,3.48 L9,3.48 Z" fill="#EA4335"></path>
+                  <path d="M17.64,9.2 C17.64,8.46 17.58,7.92 17.45,7.36 L9,7.36 L9,10.7 L13.96,10.7 C13.86,11.53 13.32,12.78 12.12,13.62 L14.96,15.82 C16.66,14.25 17.64,11.94 17.64,9.2 L17.64,9.2 Z" fill="#4285F4"></path>
+                  <path d="M3.88,10.78 C3.69,10.22 3.58,9.62 3.58,9 C3.58,8.38 3.69,7.78 3.87,7.22 L0.96,4.96 C0.35,6.18 0,7.55 0,9 C0,10.45 0.35,11.82 0.96,13.04 L3.88,10.78 L3.88,10.78 Z" fill="#FBBC05"></path>
+                  <path d="M9,18 C11.43,18 13.47,17.2 14.96,15.82 L12.12,13.62 C11.36,14.15 10.34,14.52 9,14.52 C6.62,14.52 4.6,12.95 3.88,10.78 L0.97,13.04 C2.45,15.98 5.48,18 9,18 L9,18 Z" fill="#34A853"></path>
+                  <polygon points="0 0 18 0 18 18 0 18"></polygon>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span class="d-none d-md-inline">Use Google</span>
+          <span class="d-inline d-md-none">Google</span>
+        </a>
+        <a href="/sso/oauth2/microsoft/start?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png" class="login-register-tab">
+          <span class="icon microsoft-logo" role="img">
+            <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g fill-rule="nonzero">
+                  <rect fill="#F3F3F3" x="0" y="0" width="18" height="18"></rect>
+                  <rect fill="#F35325" x="0.697038724" y="0.697038724" width="7.95444191" height="7.95444191"></rect>
+                  <rect fill="#81BC06" x="9.34851936" y="0.697038724" width="7.95444191" height="7.95444191"></rect>
+                  <rect fill="#05A6F0" x="0.697038724" y="9.34851936" width="7.95444191" height="7.95444191"></rect>
+                  <rect fill="#FFBA08" x="9.34851936" y="9.34851936" width="7.95444191" height="7.95444191"></rect>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span class="d-none d-md-inline">Use Microsoft</span>
+          <span class="d-inline d-md-none">Microsoft</span>
+        </a>
+        
+        <a href="/login/sso/?next=%2Fdownload-saved%2F566%2F3732%2F%3Fpath%3Dmountains.png%26filename%3Dmountains.png" class="login-register-tab">
+          <span class="icon icon-key" role="img"></span>
+          <span class="d-none d-md-inline">Use SSO</span>
+          <span class="d-inline d-md-none">SSO</span>
+        </a>
+      </div>
+      <div class="form-box">
+        
+        <form id="login-form" method="POST">
+          <input type="hidden" name="csrfmiddlewaretoken" value="52GrNzchuBuSSP57bqQ1xL2vQYKBlbqjgx2bzbtcENHnC650PNsSWdycMZVom96F">
+          <fieldset>
+            <div id="login-form-group-email" class="form-group">
+              <label class="col-form-label" for="login-form-input-email">Email</label>
+              <input id="login-form-input-email" name="email" type="email" placeholder="sally@sparrow.me" class="form-control input-md" required maxlength="254" autofocus>
+              <p class="error-message"></p>
+              <span class="helper-block" id="no-federated-login-suggestion">
+                Don't want to use federated login?
+                <a id="no-federated-login-button" href="#">Use Grok instead.</a>
+              </span>
+            </div>
+            <div id="login-form-group-password" class="form-group">
+              <label class="col-form-label" for="login-form-input-password">Password</label>
+              <input id="login-form-input-password" name="password" type="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" class="form-control input-md" required maxlength="254">
+              <p class="error-message"></p>
+              <span class="helper-block showing">
+                Forgotten your password?
+                <a tabindex="-1" href="/reset-password/">Send a reset email.</a>
+              </span>
+            </div>
+            <div id="login-form-group-twofa" class="form-group" style="display: none">
+              <label class="col-form-label" for="login-form-input-twofa">2FA code</label>
+              <input id="login-form-input-twofa" name="twofa" type="number" placeholder="123456" class="form-control input-md" optional autocompete="off" min="0" max="99999999" step="1">
+              <p class="error-message"></p>
+            </div>
+            <div id="login-form-group-submit" class="form-group">
+              <button type="submit" class="btn btn-primary form-control" id="login-form-input-submit">Log in</button>
+              <p class="error-message submit-error-message"></p>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    
+    <footer id="page-footer">
+      <div class="container-md">
+        <!--div class="row">
+          <img class="footer-logo" src="https://assets.learn.groklearning-cdn.com/static/images/branding/footer-logo.svg" alt="Grok Academy. Code. Create. Compete.">
+        </div-->
+        <div class="row">
+          <nav class="col-12 d-flex justify-content-center footer-nav">
+            <a href="/about/">About</a>
+            <a href="/policies/privacy/">Privacy Policies</a>
+            <a href="/teachers/australia/">Teacher information</a>
+            <a href="/projects/">Projects</a>
+            <a href="https://medium.com/grokacademy" target="_blank" rel="noreferrer">Blog</a>
+          </nav>
+        </div>
+        <div class="row">
+          <nav class="col-12 d-flex justify-content-center footer-social">
+            <a class="icon icon-envelop5 js-support-message" href="mailto:support@groklearning.com" title="Email"><span class="sr-only">Email support</span></a>
+             <!-- Social media links should be hidden for students as part of agreement with ACT-->
+            <a class="icon icon-facebook2" href="https://facebook.com/grokacademy" title="Facebook" target="_blank" rel="noreferrer"><span class="sr-only">Visit our Facebook page</span></a>
+            <a class="icon icon-twitter" href="https://twitter.com/grokacademy" title="Twitter" target="_blank" rel="noreferrer"><span class="sr-only">Visit our Twitter page</span></a>
+            
+          </nav>
+        </div>
+        <div class="row">
+          <p class="col-12 d-flex justify-content-center business-info">Grok Academy Limited &mdash;&nbsp; <abbr class="mr-2" title="Australian Business Number">A.B.N.</abbr> 31 643 542 054</p>
+        </div>
+        <div class="row">
+          <p class="col-12 d-flex text-center">
+            <em>
+              Grok acknowledges and pays respect to the past, present and future Traditional Custodians and Elders of this nation and the continuation of cultural, spiritual and educational practices of Aboriginal and Torres Strait Islander peoples.
+            </em>
+          </p>
+          <p class="col-12 d-flex text-center">
+            <em>
+              Grok accepts the invitation of the <a class="p-0 text-underline" href="https://ulurustatement.org/" target="_blank">Uluru Statement from the Heart</a> and supports a First Nations Voice to Parliament enshrined in the Australian Constitution.
+           </em>
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+
+    
+    <script type="application/json" id="json-grok-page-context">{&quot;current_user&quot;: null, &quot;load&quot;: {&quot;facebook&quot;: false, &quot;ga&quot;: true, &quot;help_scout&quot;: true, &quot;mathjax&quot;: false}, &quot;beacon&quot;: {&quot;suggestions&quot;: [&quot;59b4928d2c7d3a73488cbc87&quot;, &quot;59b4931e2c7d3a73488cbc89&quot;]}, &quot;env_constants&quot;: {&quot;confirmDangerousActions&quot;: true, &quot;environment&quot;: &quot;prod&quot;, &quot;facebookAppId&quot;: &quot;378457552249443&quot;, &quot;googleAnalyticsTrackingID&quot;: &quot;UA-37782203-1&quot;, &quot;googleClassroomOAuthClientID&quot;: &quot;700243419844-lpa104gr9jt7d85kmlqi56r96q9ho7te.apps.googleusercontent.com&quot;, &quot;helpScoutBeaconID&quot;: &quot;7db53dac-a1e7-46eb-97a6-2b3a17f64202&quot;, &quot;lintersWorkerType&quot;: &quot;classic&quot;, &quot;lintersWorkerURL&quot;: &quot;/api/combine-assets/web-worker/learning-linters-worker/&quot;, &quot;makecodeDeployPath&quot;: &quot;/263875ede9e49be857f7214647257a23efcee6af/index.html?controller=1&amp;hideMenuBar=1&quot;, &quot;oldHtmlCssPreviewCdnURL&quot;: &quot;https://oldpreview.comp.gl/preview/&quot;, &quot;previewTerminalHostname&quot;: &quot;dualsite-preview.comp.gl&quot;, &quot;release&quot;: &quot;41f48b020dd734139686300c969f67444c360978&quot;, &quot;scratchDeployPath&quot;: &quot;/d95ba6e61cd0e6efd06502fe50c9601b5a14da1a/index.html&quot;, &quot;sentryWebJsDSN&quot;: &quot;https://3db50ea397004acdac9f18e3d8461bcc@sentry.groklearning.io/3&quot;, &quot;socialHandleFacebook&quot;: &quot;groklearning&quot;, &quot;socialHandleLinkedin&quot;: &quot;groklearning&quot;, &quot;socialHandleTwitter&quot;: &quot;groklearning&quot;, &quot;staticPrefix&quot;: &quot;https://assets.learn.groklearning-cdn.com/static/&quot;, &quot;supportEmailAddress&quot;: &quot;support@groklearning.com&quot;, &quot;vendorAssetsCdnDomainAndProtocol&quot;: &quot;https://vendor.learn.groklearning-cdn.com&quot;, &quot;whitelistHostedDomains&quot;: {&quot;1&quot;: &quot;dualsite-cybersecurity.comp.gl&quot;, &quot;2&quot;: &quot;dualsite-pxtmicrobit.comp.gl&quot;, &quot;3&quot;: &quot;dualsite-scratch.comp.gl&quot;, &quot;4&quot;: &quot;testing.vmviewer.fifthdomain.com.au&quot;}}, &quot;server_federation_idps&quot;: [{&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;unimelb&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Unimelb&quot;, &quot;full_name&quot;: &quot;University of Melbourne&quot;, &quot;email_domains&quot;: [&quot;student.unimelb.edu.au&quot;, &quot;unimelb.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;qld&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Education Queensland&quot;, &quot;full_name&quot;: &quot;Queensland&quot;, &quot;email_domains&quot;: [&quot;det.qld.gov.au&quot;, &quot;eq.edu.au&quot;, &quot;qed.qld.gov.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-acu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;ACU&quot;, &quot;full_name&quot;: &quot;Australian Catholic University&quot;, &quot;email_domains&quot;: [&quot;acu.edu.au&quot;, &quot;myacu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-anu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;ANU&quot;, &quot;full_name&quot;: &quot;Australian National University&quot;, &quot;email_domains&quot;: [&quot;anu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-bond&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Bond&quot;, &quot;full_name&quot;: &quot;Bond University&quot;, &quot;email_domains&quot;: [&quot;bond.edu.au&quot;, &quot;student.bond.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-cqu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CQUniversity&quot;, &quot;full_name&quot;: &quot;Central Queensland University&quot;, &quot;email_domains&quot;: [&quot;cqu.edu.au&quot;, &quot;cqumail.com&quot;, &quot;student.cqu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-cdu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CDU&quot;, &quot;full_name&quot;: &quot;Charles Darwin University&quot;, &quot;email_domains&quot;: [&quot;cdu.edu.au&quot;, &quot;students.cdu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-csu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CSU&quot;, &quot;full_name&quot;: &quot;Charles Sturt University&quot;, &quot;email_domains&quot;: [&quot;csu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-curtin&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Curtin&quot;, &quot;full_name&quot;: &quot;Curtin University&quot;, &quot;email_domains&quot;: [&quot;curtin.edu.au&quot;, &quot;student.curtin.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-deakin&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Deakin&quot;, &quot;full_name&quot;: &quot;Deakin University&quot;, &quot;email_domains&quot;: [&quot;deakin.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-ecu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;ECU&quot;, &quot;full_name&quot;: &quot;Edith Cowan University&quot;, &quot;email_domains&quot;: [&quot;ecu.edu.au&quot;, &quot;our.ecu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-federation&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;FedUni&quot;, &quot;full_name&quot;: &quot;Federation University Australia&quot;, &quot;email_domains&quot;: [&quot;federation.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-flinders&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Flinders&quot;, &quot;full_name&quot;: &quot;Flinders University&quot;, &quot;email_domains&quot;: [&quot;flinders.edu.au&quot;, &quot;uni.flinders.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-jcu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;JCU&quot;, &quot;full_name&quot;: &quot;James Cook University&quot;, &quot;email_domains&quot;: [&quot;jcu.edu.au&quot;, &quot;my.jcu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-latrobe&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;La Trobe&quot;, &quot;full_name&quot;: &quot;La Trobe University&quot;, &quot;email_domains&quot;: [&quot;latrobe.edu.au&quot;, &quot;students.latrobe.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-mq&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Macquarie&quot;, &quot;full_name&quot;: &quot;Macquarie University&quot;, &quot;email_domains&quot;: [&quot;mq.edu.au&quot;, &quot;students.mq.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-monash&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Monash&quot;, &quot;full_name&quot;: &quot;Monash University&quot;, &quot;email_domains&quot;: [&quot;monash.edu&quot;, &quot;student.monash.edu&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-murdoch&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Murdoch&quot;, &quot;full_name&quot;: &quot;Murdoch University&quot;, &quot;email_domains&quot;: [&quot;murdoch.edu.au&quot;, &quot;student.murdoch.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-rmit&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;RMIT&quot;, &quot;full_name&quot;: &quot;RMIT University&quot;, &quot;email_domains&quot;: [&quot;rmit.edu.au&quot;, &quot;rmit.edu.vn&quot;, &quot;student.rmit.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-scu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;SCU&quot;, &quot;full_name&quot;: &quot;Southern Cross University&quot;, &quot;email_domains&quot;: [&quot;scu.edu.au&quot;, &quot;student.scu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-swin&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Swinburne&quot;, &quot;full_name&quot;: &quot;Swinburne University of Technology&quot;, &quot;email_domains&quot;: [&quot;student.swin.edu.au&quot;, &quot;swin.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-adelaide&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Adelaide Uni&quot;, &quot;full_name&quot;: &quot;University of Adelaide&quot;, &quot;email_domains&quot;: [&quot;adelaide.edu.au&quot;, &quot;student.adelaide.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-canberra&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UC&quot;, &quot;full_name&quot;: &quot;University of Canberra&quot;, &quot;email_domains&quot;: [&quot;canberra.edu.au&quot;, &quot;uni.canberra.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-une&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UNE&quot;, &quot;full_name&quot;: &quot;University of New England&quot;, &quot;email_domains&quot;: [&quot;myune.edu.au&quot;, &quot;une.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-unsw&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UNSW&quot;, &quot;full_name&quot;: &quot;University of New South Wales&quot;, &quot;email_domains&quot;: [&quot;ad.unsw.edu.au&quot;, &quot;student.unsw.edu.au&quot;, &quot;unsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-newcastle&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UON&quot;, &quot;full_name&quot;: &quot;University of Newcastle&quot;, &quot;email_domains&quot;: [&quot;newcastle.edu.au&quot;, &quot;uon.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-nd&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Notre Dame&quot;, &quot;full_name&quot;: &quot;University of Notre Dame&quot;, &quot;email_domains&quot;: [&quot;my.nd.edu.au&quot;, &quot;nd.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-uq&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UQ&quot;, &quot;full_name&quot;: &quot;University of Queensland&quot;, &quot;email_domains&quot;: [&quot;student.uq.edu.au&quot;, &quot;uq.edu.au&quot;, &quot;uq.net.au&quot;, &quot;uqconnect.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-unisa&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UniSA&quot;, &quot;full_name&quot;: &quot;University of South Australia&quot;, &quot;email_domains&quot;: [&quot;mymail.unisa.edu.au&quot;, &quot;unisa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-usq&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;USQ&quot;, &quot;full_name&quot;: &quot;University of Southern Queensland&quot;, &quot;email_domains&quot;: [&quot;umail.usq.edu.au&quot;, &quot;usq.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-utas&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UTAS&quot;, &quot;full_name&quot;: &quot;University of Tasmania&quot;, &quot;email_domains&quot;: [&quot;utas.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-uts&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UTS&quot;, &quot;full_name&quot;: &quot;University of Technology, Sydney&quot;, &quot;email_domains&quot;: [&quot;student.uts.edu.au&quot;, &quot;uts.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-uwa&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UWA&quot;, &quot;full_name&quot;: &quot;University of Western Australia&quot;, &quot;email_domains&quot;: [&quot;student.uwa.edu.au&quot;, &quot;uwa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-uws&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UWS&quot;, &quot;full_name&quot;: &quot;University of Western Sydney&quot;, &quot;email_domains&quot;: [&quot;student.uws.edu.au&quot;, &quot;student.westernsydney.edu.au&quot;, &quot;uws.edu.au&quot;, &quot;westernsydney.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-uow&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;UOW&quot;, &quot;full_name&quot;: &quot;University of Wollongong&quot;, &quot;email_domains&quot;: [&quot;uow.edu.au&quot;, &quot;uowmail.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-usc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;USC&quot;, &quot;full_name&quot;: &quot;University of the Sunshine Coast&quot;, &quot;email_domains&quot;: [&quot;student.usc.edu.au&quot;, &quot;usc.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;aaf-vu&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;VU&quot;, &quot;full_name&quot;: &quot;Victoria University&quot;, &quot;email_domains&quot;: [&quot;live.vu.edu.au&quot;, &quot;students.vu.edu.au&quot;, &quot;vu.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-aut&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;AUT&quot;, &quot;full_name&quot;: &quot;Auckland University of Technology&quot;, &quot;email_domains&quot;: [&quot;aut.ac.nz&quot;, &quot;autuni.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-lincoln&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Lincoln&quot;, &quot;full_name&quot;: &quot;Lincoln University&quot;, &quot;email_domains&quot;: [&quot;lincoln.ac.nz&quot;, &quot;lincolnuni.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-massey&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Massey&quot;, &quot;full_name&quot;: &quot;Massey University&quot;, &quot;email_domains&quot;: [&quot;massey.ac.nz&quot;, &quot;uni.massey.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-auckland&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Auckland&quot;, &quot;full_name&quot;: &quot;University of Auckland&quot;, &quot;email_domains&quot;: [&quot;auckland.ac.nz&quot;, &quot;aucklanduni.ac.nz&quot;, &quot;cs.auckland.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-canterbury&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Canterbury&quot;, &quot;full_name&quot;: &quot;University of Canterbury&quot;, &quot;email_domains&quot;: [&quot;canterbury.ac.nz&quot;, &quot;pg.canterbury.ac.nz&quot;, &quot;uclive.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-otago&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Otago&quot;, &quot;full_name&quot;: &quot;University of Otago&quot;, &quot;email_domains&quot;: [&quot;otago.ac.nz&quot;, &quot;postgrad.otago.ac.nz&quot;, &quot;student.otago.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;tuakiri-waikato&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Waikato&quot;, &quot;full_name&quot;: &quot;University of Waikato&quot;, &quot;email_domains&quot;: [&quot;students.waikato.ac.nz&quot;, &quot;waikato.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;cenet&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Catholic Education Network&quot;, &quot;full_name&quot;: &quot;Catholic Education Network&quot;, &quot;email_domains&quot;: [&quot;arm.catholic.edu.au&quot;, &quot;armstu.catholic.edu.au&quot;, &quot;bth.catholic.edu.au&quot;, &quot;bthstu.catholic.edu.au&quot;, &quot;catholic.tas.edu.au&quot;, &quot;cathstu.tas.edu.au&quot;, &quot;cg.catholic.edu.au&quot;, &quot;cgstudents.catholic.edu.au&quot;, &quot;cns.catholic.edu.au&quot;, &quot;cnsstu.catholic.edu.au&quot;, &quot;dbb.catholic.edu.au&quot;, &quot;dbbstu.catholic.edu.au&quot;, &quot;dow.catholic.edu.au&quot;, &quot;dowstu.catholic.edu.au&quot;, &quot;mn.catholic.edu.au&quot;, &quot;mnstu.catholic.edu.au&quot;, &quot;parra.catholic.edu.au&quot;, &quot;parrastu.catholic.edu.au&quot;, &quot;rok.catholic.edu.au&quot;, &quot;rokstu.catholic.edu.au&quot;, &quot;twb.catholic.edu.au&quot;, &quot;twbstu.catholic.edu.au&quot;, &quot;wf.catholic.edu.au&quot;, &quot;wfstu.catholic.edu.au&quot;, &quot;ww.catholic.edu.au&quot;, &quot;wwstu.catholic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 1}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;nt&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;NT Department of Education&quot;, &quot;full_name&quot;: &quot;Northern Territory&quot;, &quot;email_domains&quot;: [&quot;education.nt.gov.au&quot;, &quot;nt.gov.au&quot;, &quot;ntschools.net&quot;, &quot;student.ntschools.net&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;nsw&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;NSW Department of Education&quot;, &quot;full_name&quot;: &quot;New South Wales&quot;, &quot;email_domains&quot;: [&quot;det.nsw.edu.au&quot;, &quot;education.nsw.gov.au&quot;, &quot;preprod.det.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-act-cgs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CGS&quot;, &quot;full_name&quot;: &quot;Canberra Grammar School&quot;, &quot;email_domains&quot;: [&quot;cgs.act.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-gslc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Good Shepherd Lutheran College&quot;, &quot;full_name&quot;: &quot;Good Shepherd Lutheran College&quot;, &quot;email_domains&quot;: [&quot;gslc.qld.edu.au&quot;, &quot;student.gslc.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;nz-vuw&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Victoria University of Wellington&quot;, &quot;full_name&quot;: &quot;Victoria University of Wellington&quot;, &quot;email_domains&quot;: [&quot;myvuw.ac.nz&quot;, &quot;staff.vuw.ac.nz&quot;, &quot;vuw.ac.nz&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 4}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-ssc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Saint Stephen&#x27;s College&quot;, &quot;full_name&quot;: &quot;Saint Stephen&#x27;s College&quot;, &quot;email_domains&quot;: [&quot;ssc.qld.edu.au&quot;, &quot;students.ssc.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-oakhill&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Oakhill College&quot;, &quot;full_name&quot;: &quot;Oakhill College&quot;, &quot;email_domains&quot;: [&quot;oakhill.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-kinross&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Kinross Wolaroi School&quot;, &quot;full_name&quot;: &quot;Kinross Wolaroi School&quot;, &quot;email_domains&quot;: [&quot;kws.nsw.edu.au&quot;, &quot;student.kws.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-ccgs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CCGS&quot;, &quot;full_name&quot;: &quot;Christ Church Grammar School&quot;, &quot;email_domains&quot;: [&quot;ccgs.wa.edu.au&quot;, &quot;student.ccgs.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-btac&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Bishop Tyrrell Anglican College&quot;, &quot;full_name&quot;: &quot;Bishop Tyrrell Anglican College&quot;, &quot;email_domains&quot;: [&quot;btac.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-stcaths&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Catherine&#x27;s School&quot;, &quot;full_name&quot;: &quot;St Catherine&#x27;s School&quot;, &quot;email_domains&quot;: [&quot;stcatherines.nsw.edu.au&quot;, &quot;stcaths.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-ormiston&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Ormiston College&quot;, &quot;full_name&quot;: &quot;Ormiston College&quot;, &quot;email_domains&quot;: [&quot;ormiston.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-wcc2&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Waverley Christian College&quot;, &quot;full_name&quot;: &quot;Waverley Christian College&quot;, &quot;email_domains&quot;: [&quot;wcc.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-abbotsleigh&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Abbotsleigh&quot;, &quot;full_name&quot;: &quot;Abbotsleigh&quot;, &quot;email_domains&quot;: [&quot;abbotsleigh.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-mcc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Melton Christian College&quot;, &quot;full_name&quot;: &quot;Melton Christian College&quot;, &quot;email_domains&quot;: [&quot;mcc.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-sbhs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Sydney Boys High School&quot;, &quot;full_name&quot;: &quot;Sydney Boys High School&quot;, &quot;email_domains&quot;: [&quot;sbhs.nsw.edu.au&quot;, &quot;student.sbhs.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-act-burgmann&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Burgmann Anglican School&quot;, &quot;full_name&quot;: &quot;Burgmann Anglican School&quot;, &quot;email_domains&quot;: [&quot;burgmann.act.edu.au&quot;, &quot;stu.burgmann.act.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-mlc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Methodist Ladies&#x27; College&quot;, &quot;full_name&quot;: &quot;Methodist Ladies&#x27; College&quot;, &quot;email_domains&quot;: [&quot;mlc.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-dubbocs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Dubbo Christian School&quot;, &quot;full_name&quot;: &quot;Dubbo Christian School&quot;, &quot;email_domains&quot;: [&quot;dubbocs.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;sa&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;SA Department for Education&quot;, &quot;full_name&quot;: &quot;South Australia&quot;, &quot;email_domains&quot;: [&quot;schools.sa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-hillbrook&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Hillbrook Anglican School&quot;, &quot;full_name&quot;: &quot;Hillbrook Anglican School&quot;, &quot;email_domains&quot;: [&quot;g.hasqld.com&quot;, &quot;hillbrook.qld.edu.au&quot;, &quot;student.hillbrook.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-plcscotch&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Presbyterian Ladies&#x27; College/Scotch College&quot;, &quot;full_name&quot;: &quot;Presbyterian Ladies&#x27; College/Scotch College&quot;, &quot;email_domains&quot;: [&quot;plc.wa.edu.au&quot;, &quot;scotch.wa.edu.au&quot;, &quot;student.plc.wa.edu.au&quot;, &quot;student.scotch.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-covenantcs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Covenant Christian School&quot;, &quot;full_name&quot;: &quot;Covenant Christian School&quot;, &quot;email_domains&quot;: [&quot;covenant.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-ascham&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Ascham School&quot;, &quot;full_name&quot;: &quot;Ascham School&quot;, &quot;email_domains&quot;: [&quot;ascham.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-wesley&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Wesley College&quot;, &quot;full_name&quot;: &quot;Wesley College&quot;, &quot;email_domains&quot;: [&quot;wesley.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-trinity&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Trinity Grammar School&quot;, &quot;full_name&quot;: &quot;Trinity Grammar School&quot;, &quot;email_domains&quot;: [&quot;trinity.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-mentonegirls&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Mentone Girls&#x27; Grammar School&quot;, &quot;full_name&quot;: &quot;Mentone Girls&#x27; Grammar School&quot;, &quot;email_domains&quot;: [&quot;mentonegirls.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-shore&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;SHORE&quot;, &quot;full_name&quot;: &quot;SHORE&quot;, &quot;email_domains&quot;: [&quot;shore.nsw.edu.au&quot;, &quot;student.shore.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-mountstbenedict&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Mount St Benedict College&quot;, &quot;full_name&quot;: &quot;Mount St Benedict College&quot;, &quot;email_domains&quot;: [&quot;msb.nsw.edu.au&quot;, &quot;msben.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-crcnk&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;CRCNK&quot;, &quot;full_name&quot;: &quot;Catholic Regional College North Keilor&quot;, &quot;email_domains&quot;: [&quot;crcnk.com.au&quot;, &quot;crcnk.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-nbcs&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Northern Beaches Christian School&quot;, &quot;full_name&quot;: &quot;Northern Beaches Christian School&quot;, &quot;email_domains&quot;: [&quot;casual.nbcs.nsw.edu.au&quot;, &quot;nbcs.nsw.edu.au&quot;, &quot;student.nbcs.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-barker-2020&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Barker College&quot;, &quot;full_name&quot;: &quot;Barker College&quot;, &quot;email_domains&quot;: [&quot;barker.college&quot;, &quot;barker.nsw.edu.au&quot;, &quot;student.barker.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;usyd&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;USyd&quot;, &quot;full_name&quot;: &quot;University of Sydney&quot;, &quot;email_domains&quot;: [&quot;sydney.edu.au&quot;, &quot;uni.sydney.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 3}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-online-helloworld&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Hello World&quot;, &quot;full_name&quot;: &quot;Hello World&quot;, &quot;email_domains&quot;: [&quot;helloworld.college&quot;, &quot;student.helloworld.college&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 5}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-wcc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;William Clarke College&quot;, &quot;full_name&quot;: &quot;William Clarke College&quot;, &quot;email_domains&quot;: [&quot;wcc-student.nsw.edu.au&quot;, &quot;wcc.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-stlukes&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Luke&#x27;s Grammar School&quot;, &quot;full_name&quot;: &quot;St Luke&#x27;s Grammar School&quot;, &quot;email_domains&quot;: [&quot;stlukes.nsw.edu.au&quot;, &quot;student.stlukes.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-pymblelc2&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Pymble Ladies&#x27; College&quot;, &quot;full_name&quot;: &quot;Pymble Ladies&#x27; College&quot;, &quot;email_domains&quot;: [&quot;pymblelc.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-gssc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Greater Shepparton Secondary College&quot;, &quot;full_name&quot;: &quot;Greater Shepparton Secondary College&quot;, &quot;email_domains&quot;: [&quot;gssc.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-bdc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Bishop Druitt College&quot;, &quot;full_name&quot;: &quot;Bishop Druitt College&quot;, &quot;email_domains&quot;: [&quot;bdc.nsw.edu.au&quot;, &quot;students.bdc.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-ccg&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Christian College Geelong&quot;, &quot;full_name&quot;: &quot;Christian College Geelong&quot;, &quot;email_domains&quot;: [&quot;ccg.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-somerville&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Somerville House&quot;, &quot;full_name&quot;: &quot;Somerville House&quot;, &quot;email_domains&quot;: [&quot;somerville.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-trinityac&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Trinity Anglican College&quot;, &quot;full_name&quot;: &quot;Trinity Anglican College&quot;, &quot;email_domains&quot;: [&quot;trinityac.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-loyola&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Loyola College&quot;, &quot;full_name&quot;: &quot;Loyola College&quot;, &quot;email_domains&quot;: [&quot;loyola.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-newington&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Newington College&quot;, &quot;full_name&quot;: &quot;Newington College&quot;, &quot;email_domains&quot;: [&quot;newington.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-act-trinitychristian&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Trinity Christian School&quot;, &quot;full_name&quot;: &quot;Trinity Christian School&quot;, &quot;email_domains&quot;: [&quot;student.tcs.act.edu.au&quot;, &quot;tcs.act.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-ssc&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Sydney Science College&quot;, &quot;full_name&quot;: &quot;Sydney Science College&quot;, &quot;email_domains&quot;: [&quot;sydneysciencecollege.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-stpeters&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Peter&#x27;s College&quot;, &quot;full_name&quot;: &quot;St Peter&#x27;s College&quot;, &quot;email_domains&quot;: [&quot;stpeters.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-ststephens&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Stephen&#x27;s School&quot;, &quot;full_name&quot;: &quot;St Stephen&#x27;s School&quot;, &quot;email_domains&quot;: [&quot;ststephens.wa.edu.au&quot;, &quot;student.ststephens.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-wa-rehobothchristian&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Rehoboth Christian College&quot;, &quot;full_name&quot;: &quot;Rehoboth Christian College&quot;, &quot;email_domains&quot;: [&quot;rehoboth.wa.edu.au&quot;, &quot;student.rehoboth.wa.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-cedars&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Cedars Christian College&quot;, &quot;full_name&quot;: &quot;Cedars Christian College&quot;, &quot;email_domains&quot;: [&quot;cedars.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-stmonicas&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Monica&#x27;s College&quot;, &quot;full_name&quot;: &quot;St Monica&#x27;s College&quot;, &quot;email_domains&quot;: [&quot;stmonicas-epping.com&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-sheldoncollege&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Sheldon College&quot;, &quot;full_name&quot;: &quot;Sheldon College&quot;, &quot;email_domains&quot;: [&quot;sheldoncollege.com&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-stnarsai&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Narsai Assyrian Christian College&quot;, &quot;full_name&quot;: &quot;St Narsai Assyrian Christian College&quot;, &quot;email_domains&quot;: [&quot;acs.nsw.edu.au&quot;, &quot;snac.nsw.edu.au&quot;, &quot;stnarsai.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-camberwellgirls&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Camberwell Girls Grammar School&quot;, &quot;full_name&quot;: &quot;Camberwell Girls Grammar School&quot;, &quot;email_domains&quot;: [&quot;cggs.vic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-nsw-hillsgrammar&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;The Hills Grammar School&quot;, &quot;full_name&quot;: &quot;The Hills Grammar School&quot;, &quot;email_domains&quot;: [&quot;hillsgrammar.nsw.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-vic-stbernardwangaratta&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;St Bernard&#x27;s School&quot;, &quot;full_name&quot;: &quot;St Bernard&#x27;s School&quot;, &quot;email_domains&quot;: [&quot;eduadv.com.au&quot;, &quot;sbwangaratta.catholic.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 0, &quot;slug&quot;: &quot;au-qld-heightscollege&quot;, &quot;oauth_idp_slug&quot;: null, &quot;short_name&quot;: &quot;Heights College&quot;, &quot;full_name&quot;: &quot;Heights College&quot;, &quot;email_domains&quot;: [&quot;heights.qld.edu.au&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-o-grokacademy&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Grok Academy&quot;, &quot;full_name&quot;: &quot;Grok Academy&quot;, &quot;email_domains&quot;: [&quot;grokacademy.org&quot;], &quot;allow_password_login&quot;: false, &quot;category&quot;: 6}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-o-cmcrc&quot;, &quot;oauth_idp_slug&quot;: &quot;google&quot;, &quot;short_name&quot;: &quot;CMCRC&quot;, &quot;full_name&quot;: &quot;Capital Markets Cooperative Research Centre&quot;, &quot;email_domains&quot;: [&quot;cmcrc.com&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 5}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-act&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;ACT Education Directorate&quot;, &quot;full_name&quot;: &quot;Australian Capital Territory&quot;, &quot;email_domains&quot;: [&quot;ed.act.edu.au&quot;, &quot;schoolsnet.act.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-vic&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;VIC Department of Education and Training&quot;, &quot;full_name&quot;: &quot;Victoria&quot;, &quot;email_domains&quot;: [&quot;education.vic.gov.au&quot;, &quot;schools.vic.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-wa&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;WA Department of Education&quot;, &quot;full_name&quot;: &quot;Western Australia&quot;, &quot;email_domains&quot;: [&quot;education.wa.edu.au&quot;, &quot;student.education.wa.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 0}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-c-bne&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Brisbane Diocese&quot;, &quot;full_name&quot;: &quot;Diocese of Brisbane&quot;, &quot;email_domains&quot;: [&quot;bne.catholic.edu.au&quot;, &quot;mybce.catholic.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 1}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-c-lism&quot;, &quot;oauth_idp_slug&quot;: &quot;google&quot;, &quot;short_name&quot;: &quot;Lismore Diocese&quot;, &quot;full_name&quot;: &quot;Diocese of Lismore&quot;, &quot;email_domains&quot;: [&quot;lism.catholic.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 1}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-c-syd&quot;, &quot;oauth_idp_slug&quot;: &quot;google&quot;, &quot;short_name&quot;: &quot;Sydney Archdiocese&quot;, &quot;full_name&quot;: &quot;Archdiocese of Sydney&quot;, &quot;email_domains&quot;: [&quot;syd.catholic.edu.au&quot;, &quot;sydstu.catholic.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 1}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-c-wa&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;CEWA&quot;, &quot;full_name&quot;: &quot;Catholic Education WA&quot;, &quot;email_domains&quot;: [&quot;cathednet.wa.edu.au&quot;, &quot;cewa.edu.au&quot;, &quot;student.cewa.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 1}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-nsw-knox&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Knox Grammar School&quot;, &quot;full_name&quot;: &quot;Knox Grammar School&quot;, &quot;email_domains&quot;: [&quot;knox.nsw.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-nsw-reddam&quot;, &quot;oauth_idp_slug&quot;: &quot;google&quot;, &quot;short_name&quot;: &quot;Reddam House&quot;, &quot;full_name&quot;: &quot;Reddam House&quot;, &quot;email_domains&quot;: [&quot;reddamhouse.com.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-nsw-roseville&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Roseville College&quot;, &quot;full_name&quot;: &quot;Roseville College&quot;, &quot;email_domains&quot;: [&quot;roseville.nsw.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-nsw-saintaug&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;St Augustine&#x27;s College&quot;, &quot;full_name&quot;: &quot;St Augustine&#x27;s College&quot;, &quot;email_domains&quot;: [&quot;saintaug.nsw.edu.au&quot;, &quot;student.saintaug.nsw.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-qld-bbc&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Brisbane Boys College&quot;, &quot;full_name&quot;: &quot;Brisbane Boys College&quot;, &quot;email_domains&quot;: [&quot;bbc.qld.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-sa-trinity&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Trinity College&quot;, &quot;full_name&quot;: &quot;Trinity College&quot;, &quot;email_domains&quot;: [&quot;live.trinity.sa.edu.au&quot;, &quot;trinity.sa.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-i-wa-ljbc&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;Lake Joondalup Baptist College&quot;, &quot;full_name&quot;: &quot;Lake Joondalup Baptist College&quot;, &quot;email_domains&quot;: [&quot;ljbc.wa.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 2}, {&quot;idp_type&quot;: 1, &quot;slug&quot;: &quot;oauth2-au-tas&quot;, &quot;oauth_idp_slug&quot;: &quot;microsoft&quot;, &quot;short_name&quot;: &quot;TAS Department of Education&quot;, &quot;full_name&quot;: &quot;Tasmania&quot;, &quot;email_domains&quot;: [&quot;decyp.tas.gov.au&quot;, &quot;education.tas.edu.au&quot;, &quot;education.tas.gov.au&quot;, &quot;tased.edu.au&quot;], &quot;allow_password_login&quot;: true, &quot;category&quot;: 0}]}</script>
+
+    
+    <script crossorigin="anonymous" integrity="sha384-7aqZOM0i8928OZVlakGTsgcsBNZlPv7E99K12FOE2cdN7IglxOkOUmyk/ei9oWTY" src="https://assets.learn.groklearning-cdn.com/static/dist/polyfills-webcomponents-es5-adapter-js/polyfills-webcomponents-es5-adapter-js.f84ca3134d49d431d84f.js" type="text/javascript"></script> 
+    <script crossorigin="anonymous" integrity="sha384-4WPtGJzHHBlV3FhOnE7TaI5d81Ji4ePozxvbmqkKO5JvTb53PphBFlSHNCZ1Gais" src="https://assets.learn.groklearning-cdn.com/static/dist/polyfills-webcomponents-js/polyfills-webcomponents-js.a94eef4f99734b96fca2.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" integrity="sha384-NO+lr1xeiYmBg4LjjrXQV+OKr2QhozDut8JbQ171A5FXIuawGr/jGWYjhKfM/ZPo" src="https://assets.learn.groklearning-cdn.com/static/dist/vendor-base-v3-js/vendor-base-v3-js.fcffaaa9b35981c9ab2b.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" defer integrity="sha384-tZapJ0yhxHv1bi3yD7lJRH9/0w401Y+l0M6c6ermmhq+wuzGihXJ2XBWMVQz++7a" src="https://assets.learn.groklearning-cdn.com/static/dist/vendor-base-v3-async-js/vendor-base-v3-async-js.1c1cbaa94867ee07d660.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" integrity="sha384-o6/AveUwQ9sWjPeck6mMCEf9KMWzxJOn9ESkjNWt4qozAFEl50CV1JNm3aPRqRit" src="https://assets.learn.groklearning-cdn.com/static/dist/templates-v3-js/templates-v3-js.bba451aa2cf6d2f56296.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" integrity="sha384-FO2GinacOaciGOltCgzCAotrFutiZktw+xQLveZ7zG9mpbgs457Vm1b7W8tUl5ji" src="https://assets.learn.groklearning-cdn.com/static/dist/icons-js/icons-js.cb7794da382acf648de2.js" type="text/javascript"></script>
+    <script crossorigin="anonymous" integrity="sha384-/xdX5+77OaSJKh2r/4ty9Hla4jeeVzJgksGGyk3Vu97Vd4FYJnu0E0aEVyrEQhjk" src="https://assets.learn.groklearning-cdn.com/static/dist/marketing-v3-js/marketing-v3-js.6dac0d037ff38f6e51c1.js" type="text/javascript"></script>
+    
+
+    
+    
+  </body>
+</html>
